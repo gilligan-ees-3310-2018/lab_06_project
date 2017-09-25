@@ -17,7 +17,7 @@ and a blank RMarkdown file in which you can fill in your lab report.
 ## Assignment and Resources
 
 The formal assignment has been posted to Brightspace and there
-is also a copy in this directory: <lab_05_instructions.pdf>.
+is also a copy in this directory: [lab_05_instructions.pdf](lab_05_instructions.pdf).
 
 There are resources to help you with things like bibliographies, citations,
 and other aspects of this project in RMarkdown on Brightspace.
