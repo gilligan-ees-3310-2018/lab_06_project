@@ -3,12 +3,12 @@ title: 'put the title of your project here'
 subtitle: "Lab #5 Report"
 author: "put your name here"
 date: "Due Oct. 11, 2017"
-bibliography: "lab_05.bib"
+bibliography: "lab_05.bib" # this line tells RMarkdown which file to use for the bibliography
 output: 
   html_document: default
   pdf_document:
     include:
-      in_header: "ees3310.sty"
+      in_header: "ees3310.sty" # This line just tells RMarkdown to use a style file to format the PDF file with Times Roman font.
 ---
 ```{r setup, include=FALSE}
 knitr::knit_hooks$set(inline = function(x) { knitr:::format_sci(x, 'md')})
