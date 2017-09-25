@@ -1,0 +1,59 @@
+---
+title: 'put the title of your project here'
+subtitle: "Lab #5 Report"
+author: "put your name here"
+date: "Due Oct. 11, 2017"
+bibliography: "lab_05.bib"
+output: 
+  html_document: default
+  pdf_document:
+    include:
+      in_header: "ees3310.sty"
+---
+```{r setup, include=FALSE}
+knitr::knit_hooks$set(inline = function(x) { knitr:::format_sci(x, 'md')})
+knitr::opts_chunk$set(echo = TRUE)
+
+# This section loads necessary R libraries and sources scripts that define 
+# useful functions format_md.
+# 
+data_dir = "data"
+script_dir = "scripts"
+
+if (!dir.exists('data')) dir.create('data')
+
+library(pacman)
+
+# Some lab computers fail to load tidyverse
+# because bindr is not installed.
+# This will prevent such errors.
+if (!p_isinstalled(bindr)) p_install(bindr)
+
+
+# Load all of the following packages.
+# Install any missing packages.
+p_load(zoo, xml2, scales, tidyverse, stringr, lubridate)
+
+# This sets the default style for ggplot
+theme_set(theme_bw(base_size = 15))
+
+# This is the URL for downloading CO2 data from Mauna Loa
+mlo_url = "http://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/monthly/monthly_in_situ_co2_mlo.csv"
+
+# This is the URL for downloading global temperature data from NASA's
+# Goddard Institute for Space Studies (GISS).
+giss_url = "https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts+dSST.csv"
+
+
+
+# Load basic utility scripts
+source('scripts/utils.R', chdir = T)
+
+# Load scripts for running and plotting MODTRAN
+# You can delete this line if you will not be using MODTRAN
+source('scripts/modtran.R', chdir = T)
+
+# Load scripts for running and plotting GEOCARB
+# You can delete this line if you will not be using GEOCARB
+source('scripts/geocarb.R', chdir = T)
+```
