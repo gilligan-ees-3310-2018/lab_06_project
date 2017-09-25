@@ -13,3 +13,13 @@ successfully into a PDF file by 9:00 am on Wednesday Oct. 11.
 
 This project contains copies of the scripts we used in previous labs
 and a blank RMarkdown file in which you can fill in your lab report.
+
+## Assignment and Resources
+
+The formal assignment has been posted to Brightspace and there
+is also a copy in this directory: <lab_of_instructions.pdf>.
+
+There are resources to help you with things like bibliographies, citations,
+and other aspects of this project in RMarkdown on Brightspace.
+You can get the raw RMarkdown files for those resources at
+<https://github.com/gilligan-ees-3310/lab_05_Assignment.git>
