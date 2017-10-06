@@ -7,7 +7,7 @@ cache/
 *_cache/
 *_files/
 *.aux
-*.bib
+*.bbl
 *.out
 *.log
 *.blg
