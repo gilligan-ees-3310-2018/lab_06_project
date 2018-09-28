@@ -53,5 +53,3 @@ ftok <- function(x) {
 ktof <- function(x) {
   ctof(ktoc(x))
 }
-
-source('format_md.R')
