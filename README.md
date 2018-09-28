@@ -1,4 +1,4 @@
-# Lab #5 Assignment: Independent Project
+# Lab #6 Assignment: Independent Project
 
 ## Overview
 
@@ -9,7 +9,7 @@ builds upon a previous exercise.
 
 You will prepare a presentation on your project for the lab session on Monday Oct. 9
 and you will turn in a formal lab report, prepared with RMarkdown and knitted
-successfully into a PDF file by 9:00 am on Wednesday Oct. 11.
+successfully into a PDF file by 11:59 pm on Wednesday Oct. 17.
 
 This project contains copies of the scripts we used in previous labs
 and a blank RMarkdown file in which you can fill in your lab report.
@@ -17,9 +17,9 @@ and a blank RMarkdown file in which you can fill in your lab report.
 ## Assignment and Resources
 
 The formal assignment has been posted to Brightspace and there
-is also a copy in this directory: [lab_05_instructions.pdf](lab_05_instructions.pdf).
+is also a copy in this directory: [lab_06_instructions.pdf](lab_06_instructions.pdf).
 
 There are resources to help you with things like bibliographies, citations,
 and other aspects of this project in RMarkdown on Brightspace.
 You can get the raw RMarkdown files for those resources at
-<https://github.com/gilligan-ees-3310/lab_05_Assignment.git>
+<https://github.com/gilligan-ees-3310/lab_06_Assignment.git>

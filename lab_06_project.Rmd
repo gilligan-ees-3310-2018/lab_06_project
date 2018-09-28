@@ -1,8 +1,8 @@
 ---
 title: 'put the title of your project here'
-subtitle: "Lab #5 Report"
+subtitle: "Lab #6 Report"
 author: "put your name here"
-date: "Due Oct. 11, 2017"
+date: "Due Oct. 17, 2018"
 bibliography: "lab_05.bib" # this line tells RMarkdown which file to use for the bibliography
 output: 
   html_document: default
