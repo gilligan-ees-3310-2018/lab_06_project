@@ -145,8 +145,8 @@ run_modtran <- function(filename = NULL,
                 "altitude_km", "looking")) %>%
     map(~as.character(.x[1])) %>%
     modify_at("atmosphere", ~str_to_lower(.x) %>%
-             str_replace_all(c("[^a-z0-9]+" = " ", "  +" = " ")) %>%
-             str_trim()
+                str_replace_all(c("[^a-z0-9]+" = " ", "  +" = " ")) %>%
+                str_trim()
     ) %>%
     simplify()
   for(k in c('h2o_fixed', 'atmosphere', 'clouds', 'looking')) {

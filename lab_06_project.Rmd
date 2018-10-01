@@ -53,6 +53,10 @@ source('scripts/utils.R', chdir = T)
 # You can delete this line if you will not be using MODTRAN
 source('scripts/modtran.R', chdir = T)
 
+# Load scripts for running and plotting MODTRAN
+# You can delete this line if you will not be using MODTRAN
+source('scripts/rrtm.R', chdir = T)
+
 # Load scripts for running and plotting GEOCARB
 # You can delete this line if you will not be using GEOCARB
 source('scripts/geocarb.R', chdir = T)
